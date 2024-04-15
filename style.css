@@ -12,13 +12,17 @@ header, footer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 section {
   padding: 20px;
   margin: 10px;
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   font-size: 0.8em;
@@ -28,7 +32,8 @@ footer {
 img {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  /* width: 300px;
+  height: 300px; */
 }
 
 h1, h2 {
