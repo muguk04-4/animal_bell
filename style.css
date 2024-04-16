@@ -5,11 +5,14 @@ body {
   background: #f4f4f9;
 }
 
-header, footer {
+header{
+  width: auto;
+  height: 50px;
+  display: flex;
   background: #fff;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  align-items: center;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 div {
@@ -17,16 +20,21 @@ div {
   justify-content: center;
 }
 
-section {
+section{
   padding: 20px;
-  margin: 10px;
+  margin: 0px;
 }
 
 footer {
+  background: #fff;
+  padding: 0px;
+  margin: 0;
+  text-align: right;
   bottom: 0;
   width: 100%;
   font-size: 0.8em;
   color: #666;
+  box-shadow: 0 -5px 4px rgba(0, 0, 0, 0.1);
 }
 
 img {
