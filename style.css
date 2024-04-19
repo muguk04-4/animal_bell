@@ -5,6 +5,11 @@ body {
   background: #f4f4f9;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 header{
   display: flex;
   position: relative;
@@ -29,17 +34,21 @@ header{
   gap: 20px;
 }
 
-div {
+#first_div section{
   display: flex;
-  justify-content: center;
+  text-align: center;
+  gap: 40px;
 }
 
-section{
-  padding: 20px;
-  margin: 0px;
+#second_div{
+  margin-top: 30px;
+}
+#third_div{
+  gap: 20px;
 }
 
 #cs_service section{
+  padding: 0px 5px 0px 5px;
   border: 1px solid #333;
   border-radius: 20px;
   display: flex;
@@ -56,6 +65,8 @@ section{
 
 footer {
   background: #fff;
+  position: absolute;
+  bottom: 0px;
   padding: 0px;
   margin: 0;
   text-align: right;
@@ -64,6 +75,9 @@ footer {
   font-size: 0.8em;
   color: #666;
   box-shadow: 0 -5px 4px rgba(0, 0, 0, 0.1);
+}
+footer section{
+  margin-right: 30px;
 }
 
 img {
