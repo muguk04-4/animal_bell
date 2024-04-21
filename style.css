@@ -1,4 +1,4 @@
-/* 전체 태그 */
+/* ***** 전체 태그 ***** */
 body {
   font-family: "IBM Plex Sans KR", sans-serif;
   margin: 0;
@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 
-/* 상단부 */
+/* ***** 상단부 ***** */
 header{
   display: flex;
   position: relative;
@@ -46,27 +46,45 @@ header{
   gap: 20px;
 }
 
-/* 본문 */
+/* ***** 본문 ***** */
 #item_img{
+  margin-top: 40px;
   align-items: center;
+  gap: 50px;
 }
+#item_img img{
+  width: auto;
+  height: 400px;
+}
+
 #first_div section{
   display: flex;
   text-align: center;
-  gap: 40px;
+  gap: 100px;
 }
-#first_div img{
-  margin: 10px;
+#first_div span{
+  color: orange;
 }
 
 #second_div{
   margin-top: 30px;
+  border-top: solid 1px rgb(197, 196, 196);
 }
 
 #third_div{
   gap: 20px;
+  text-align: center;
+}
+#third_div section{
+  border: #333 solid 1px;
+}
+#third_div p{
+  font-weight: 600;
 }
 
+#cs_service{
+  margin-top: 20px;
+}
 #cs_service section{
   margin: 0;
   padding: 0px 20px 0px 20px;
@@ -74,7 +92,7 @@ header{
   border-radius: 20px;
   display: flex;
   gap: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 #cs_service section h2{
   font-size: 20px;
@@ -83,7 +101,7 @@ header{
   display: flex;
 }
 
-/* 하단부 */
+/* ***** 하단부 ***** */
 footer {
   background: #fff;
   bottom: 0px;
