@@ -68,15 +68,11 @@ header{
 
 #second_div{
   margin-top: 30px;
-  border-top: solid 1px rgb(197, 196, 196);
 }
 
 #third_div{
   gap: 20px;
   text-align: center;
-}
-#third_div section{
-  border: #333 solid 1px;
 }
 #third_div p{
   font-weight: 600;
@@ -86,18 +82,22 @@ header{
   margin-top: 20px;
 }
 #cs_service section{
+  box-shadow: 0px 0px 2px 2px rgb(212, 208, 208);
+  background-color: rgb(130, 93, 44);
   margin: 0;
   padding: 0px 20px 0px 20px;
-  border: 1px solid #333;
   border-radius: 20px;
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
+  align-items: center;
 }
 #cs_service section h2{
+  color: #f4f4f9;
   font-size: 20px;
 }
 #cs_service section p{
+  color: #f4f4f9;
   display: flex;
 }
 
