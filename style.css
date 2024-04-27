@@ -74,6 +74,10 @@ header{
   gap: 20px;
   text-align: center;
 }
+#third_div img{
+  width: 350px;
+  border-radius: 50px;
+}
 #third_div p{
   font-weight: 600;
 }
